@@ -41,3 +41,12 @@ const user = {
 
 const [ id, email, name, nickname, username, password ] = user;
 console.log(id, email, name, nickname, username, password);
+
+
+const account = {
+  balance: 1000,
+  debt: 10,
+};
+
+account.balance = 2000;
+console.log(account.balance);
