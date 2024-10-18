@@ -28,3 +28,15 @@ console.log(value);
  */
 const money = currency + " " + value;
 console.log(money);
+
+
+const user = {
+  id: 24,
+  email: 'aras@dicoding.com',
+  name: 'Arsy',
+  nickname: 'Aras',
+  username: 'aras123',
+  password: 'secret',
+};
+
+const [ id, email, name, nickname, username, password ] = user;
