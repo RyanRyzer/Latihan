@@ -29,7 +29,7 @@ console.log(value);
 const money = currency + " " + value;
 console.log(money);
 
-
+//** Struktur Data Object */
 const user = {
   id: 24,
   email: 'aras@dicoding.com',
