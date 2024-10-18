@@ -40,3 +40,4 @@ const user = {
 };
 
 const [ id, email, name, nickname, username, password ] = user;
+console.log(id, email, name, nickname, username, password);
